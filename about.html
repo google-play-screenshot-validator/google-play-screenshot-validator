@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Google Play Screenshot Validator</title>
+<meta name="description" content="About the Google Play Screenshot Validator, a free browser-based tool for checking Play Store screenshot size and requirements.">
+<link rel="canonical" href="https://example.com/about.html">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="_page.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap site-header-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">▶</span> Screenshot Validator</a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <h1>About this tool</h1>
+  <p>The Google Play Screenshot Validator was built to save Android developers a round trip to the Play Console. Instead of uploading a screenshot only to find out it's the wrong size, you can check dimensions, aspect ratio and file format instantly, in the browser, before you ever open your store listing.</p>
+  <h2>Why it works this way</h2>
+  <p>Everything — validation and the auto-fix (padding or cropping to a safe size) — runs locally using the browser's File and Canvas APIs. Nothing is uploaded to a server, so it's fast and it works with confidential or unreleased app screenshots.</p>
+  <h2>Who it's for</h2>
+  <p>Indie developers, app store optimization teams, and QA reviewers preparing a batch of screenshots for a Play Store listing.</p>
+</main>
+<footer class="site-footer">© <span id="y"></span> Screenshot Validator. All processing happens in your browser.</footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>

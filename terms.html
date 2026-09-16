@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms — Google Play Screenshot Validator</title>
+<meta name="description" content="Terms of use for the Google Play Screenshot Validator tool.">
+<link rel="canonical" href="https://example.com/terms.html">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="_page.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap site-header-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">▶</span> Screenshot Validator</a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <h1>Terms of Use</h1>
+  <p>Last updated: <span id="d"></span></p>
+
+  <h2>What this tool does</h2>
+  <p>This tool checks image files against Google Play's published screenshot size and format guidance, and can generate a resized copy of an image that doesn't meet those rules. It is provided as a convenience and is not affiliated with or endorsed by Google.</p>
+
+  <h2>No warranty</h2>
+  <p>This tool is provided "as is," without warranty of any kind. Google Play's own requirements can change at any time — always confirm the current requirements in Google Play Console before publishing.</p>
+
+  <h2>Your content</h2>
+  <p>You retain all rights to any screenshots you check or fix with this tool. Since processing happens locally in your browser, we never receive, store, or have access to your files.</p>
+
+  <h2>Acceptable use</h2>
+  <p>Don't use this tool to process content that infringes someone else's rights or that is unlawful to possess or distribute.</p>
+
+  <h2>Changes</h2>
+  <p>These terms may be updated from time to time. Continued use of the tool after a change means you accept the updated terms.</p>
+</main>
+<footer class="site-footer">© <span id="y"></span> Screenshot Validator. All processing happens in your browser.</footer>
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+  document.getElementById('d').textContent = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+</script>
+</body>
+</html>

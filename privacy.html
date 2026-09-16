@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Google Play Screenshot Validator</title>
+<meta name="description" content="Privacy policy for the Google Play Screenshot Validator. No screenshots or files are ever uploaded to a server.">
+<link rel="canonical" href="https://example.com/privacy.html">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="_page.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap site-header-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">▶</span> Screenshot Validator</a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <h1>Privacy Policy</h1>
+  <p>Last updated: <span id="d"></span></p>
+
+  <h2>Your screenshots never leave your device</h2>
+  <p>This tool reads image files you select or drag in using your browser's File API, and processes them using the Canvas API — entirely inside your browser. No screenshot, filename, or image data is transmitted to any server, and none is stored once you close or refresh the page.</p>
+
+  <h2>What we don't collect</h2>
+  <p>We don't collect accounts, passwords, or personal information through this tool, and there is no database behind it.</p>
+
+  <h2>Basic web analytics</h2>
+  <p>If this site is deployed with a standard web analytics or hosting provider, that provider may log standard technical data (such as page views or approximate location from IP address) the way most websites do. Replace this section with the specifics of whatever analytics you add before launch.</p>
+
+  <h2>Third-party fonts</h2>
+  <p>This page loads fonts from Google Fonts, which may log requests according to Google's own privacy policy.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy can be sent to the address on the <a href="contact.html">Contact</a> page.</p>
+</main>
+<footer class="site-footer">© <span id="y"></span> Screenshot Validator. All processing happens in your browser.</footer>
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+  document.getElementById('d').textContent = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+</script>
+</body>
+</html>
